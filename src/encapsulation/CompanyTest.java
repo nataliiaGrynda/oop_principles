@@ -7,7 +7,7 @@ public class CompanyTest {
     Company company1 = new Company();
 
     company1.setName("Apple");
-    company1.setAddress("Californie");
+    company1.setAddress("California");
     company1.setPhoneNumber("(123) 312-2345");
 
     Company company2 = new Company();
