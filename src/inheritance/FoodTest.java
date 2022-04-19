@@ -45,7 +45,8 @@ public class FoodTest {
     System.out.println(count);
 
 
-
+    System.out.println("\n-------Count Task BONUS solution--------\n");
+    System.out.println(allFoods.stream().filter(food -> food.name.length() > 5).count());
 
   }
 }
