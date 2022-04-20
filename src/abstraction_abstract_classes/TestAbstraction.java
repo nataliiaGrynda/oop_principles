@@ -34,7 +34,7 @@ find and print how many phones are convetible -. 2
      }
       System.out.println(countConvertibles);
       System.out.println("The most expensive phone is  = " + mostExpensivePhone.getClass().getSimpleName());
-
+      System.out.println("The color of the most expensive phone is = " + mostExpensivePhone.color);
       System.out.println(IPhone.OS);// invoking static instance variables
       System.out.println(Samsung.OS);
       System.out.println(Nokia.OS);
