@@ -1,10 +1,12 @@
-package abstraction_abstract_classes;
+package abstraction.abstract_classes;
 
 public abstract class Phone {
-//defoult constractor
-public Phone(){
 
-}
+
+  public Phone(){
+
+  }
+
   public Phone(String brand, String color, int storage, double price){
     this.brand = brand;
     this.color = color;
@@ -12,22 +14,18 @@ public Phone(){
     this.price = price;
   }
 
-
-
-
   public String brand;
   public String color;
   public int storage;
   public double price;
 
-  /*
-    we can define what every phone  do
-   */
 
+
+  //we can define what every phone should do
   public abstract void call();
   public abstract void ring();
   public abstract void text();
-public abstract boolean isConvertible();
+  public abstract boolean isConvertible();
 
   @Override
   public String toString() {

@@ -1,13 +1,18 @@
-package abstraction_abstract_classes;
+package abstraction.abstract_classes;
 
 public class Nokia extends Phone{
 
-
   public static final String OS = "Android";
 
-  public Nokia(){
 
-  }
+
+public Nokia(){
+
+}
+
+
+
+
   public Nokia(String brand, String color, int storage, double price) {
     super(brand, color, storage, price);
   }
