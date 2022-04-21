@@ -19,8 +19,6 @@ public abstract class Phone {
   public int storage;
   public double price;
 
-
-
   //we can define what every phone should do
   public abstract void call();
   public abstract void ring();
