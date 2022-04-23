@@ -11,7 +11,7 @@ public interface BlueTooth {
   }
 
   //defoult method non static method that has body
-   default boolean isConected(){
+   default boolean isConnected(){
     return true;
   }
 
